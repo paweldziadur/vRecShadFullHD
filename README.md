@@ -4,7 +4,7 @@ The project is aimed at three objectives:
 
 To read, translate and display shaders written in shadertoy.com format. 
 
-To manupulate prerecorded video, and / or connected cameras using above shader. 
+To manupulate prerecorded video, and / or connected cameras using above shaders. 
 
 To be able to record the output into static video in Full HD, in decent visual quality using decent compression 
 
@@ -39,6 +39,8 @@ In C++ .cpp file in the draw routine:
     
     customShader.end();
 
-We just need one dependecy, the addon ofxVideoRecorder : https://github.com/timscaffidi/ofxVideoRecorder
+We just need one dependecy, the addon ofxVideoRecorder: https://github.com/timscaffidi/ofxVideoRecorder
 
 Tested with openFrameworks 0.98.
+
+The future development of the project would include another type of video-recorder with offline rendering, as such with capability to use heavey shaders unlimited with the the CPU / GPU / framerate.
