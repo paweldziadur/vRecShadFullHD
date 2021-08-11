@@ -20,7 +20,7 @@ In header:
 
     myShaderClass customShader;
 
-In cpp file:
+In cpp file - setup:
 
     customShader.texture_to_textura(true); // this is to change texture handling to similar to shader toy 
     customShader.loadShadertoy("shadertoy/shadertoy4.frag",1,1,1,1);   // this is to load a shadertoy shader from specified path
