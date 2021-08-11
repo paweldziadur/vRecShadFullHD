@@ -2,11 +2,11 @@
 
 The project is aimed at three objectives:
 
-To read, translate and display shaders written in shadertoy.com format. 
+1) To read, translate and display shaders written in shadertoy.com format. To use this capability we just need the myShaderClass from the project.
 
-To manupulate prerecorded video, and / or connected cameras using above shaders. 
+2) To manupulate prerecorded video, and / or connected cameras using above shaders. 
 
-To be able to record the output into static video in Full HD, in decent visual quality using decent compression 
+3) To be able to record the resulting shader stack output plus anything being drawn as part of the project into static video in Full HD, in decent visual quality using decent compression. 
 
 Example of usage is below:
 
@@ -43,4 +43,4 @@ We just need one dependecy, the addon ofxVideoRecorder: https://github.com/timsc
 
 Tested with openFrameworks 0.98.
 
-The future development of the project would include another type of video-recorder with offline rendering, as such with capability to use heavey shaders unlimited with the the CPU / GPU / framerate.
+The future development of the project would include a different type of a video-recorder with offline rendering, as such with capability to use heavy shaders and record video output without the limitation of the realtime framerate achievable on given CPU / GPU.
