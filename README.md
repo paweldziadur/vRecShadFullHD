@@ -39,6 +39,6 @@ In C++ .cpp file in the draw routine:
     
     customShader.end();
 
-We just need one dependecy the addon: https://github.com/timscaffidi/ofxVideoRecorder
+We just need one dependecy, the addon ofxVideoRecorder : https://github.com/timscaffidi/ofxVideoRecorder
 
 Tested with openFrameworks 0.98.
